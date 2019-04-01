@@ -84,6 +84,18 @@
     << " " << time_str << msg << "\033[0m\n";\
     std::cout << _os.str();\
 }
+#else
+
+#define B_PRINT_DEBUG(msg)
+/*
+ *  Definition of print debug info
+*/
+#define B_END_OF_DEBUG(msg)
+/*
+ *  Definition of print error info
+*/
+#define B_PRINT_ERROR(msg)
+
 #endif
 
 #endif  // INCLUDE_BCORE_BDEBUG_H_

@@ -71,7 +71,8 @@ if (BUILD_TESTING AND (PROJECT_SOURCE_DIR STREQUAL CMAKE_SOURCE_DIR))
     enable_testing()
 endif ()
 
-# Build examples
+# Build tests
+add_subdirectory (tests)
 
 # Build deb package
 # Package file name prefix
