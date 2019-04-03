@@ -10,8 +10,9 @@ and this project adheres to
 ### Added
 [@BallChang]
 
-- Unified basic data type definition. [@BallChang].
+- Unified basic data type definition.
 - Debug macro.
+- Return code definition.
 
 ### Changed
 [@Ball Chang]
@@ -21,6 +22,6 @@ and this project adheres to
 
 [Unreleased]: https://gitlab.com/zhangbolily/BCore/tree/dev
 [0.1.1-alpha]:
- https://gitlab.com/zhangbolily/bthreadpack/tree/v0.1.1-alpha
+ https://gitlab.com/zhangbolily/BCore/tree/v0.1.1-alpha
 
 [@Ball Chang]: https://gitlab.com/zhangbolily

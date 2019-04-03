@@ -1,7 +1,7 @@
 # BCore #
 [![Build Status](https://travis-ci.com/zhangbolily/BCore.svg?branch=dev)](https://travis-ci.com/zhangbolily/BCore)
 [![Language](https://img.shields.io/badge/language-C%2B%2B11-orange.svg)](https://isocpp.org/)
-[![Platforms](https://img.shields.io/badge/platform-Linux%20%7C%20Windows-green.svg)](https://gitlab.com/zhangbolily/bthreadpack)
+[![Platforms](https://img.shields.io/badge/platform-Linux%20%7C%20Windows-green.svg)](https://gitlab.com/zhangbolily/BCore)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT/)
 [![codecov](https://codecov.io/gl/zhangbolily/BCore/branch/dev/graph/badge.svg)](https://codecov.io/gl/zhangbolily/BCore)
 
@@ -10,7 +10,9 @@
 The Core of every Ball Chang's project.
 
 ## Main Features
-- Defining a cross-platform data types.
+- Unified basic datatype definition.
+- Debug info output macro.
+- Return code definition.
 
 ## Getting Started
 
@@ -18,7 +20,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-If you want to use BThreadPack in your platform, these requirements should be satisfied.
+If you want to use BCore in your platform, these requirements should be satisfied.
 
 ```
 C++ Standard: c++11
@@ -43,14 +45,14 @@ $ make install
 
 ## Running the tests
 
-##### Examples
+The tetes will be done automatically after building by default.
 
 ## Versioning
 
 For the versions available, see the [tags on this repository](https://gitlab.com/zhangbolily/BCore/tags).
 
 ## Roadmap
-Performance improvement in the next version.
+A better debug macro in the next version.
 
 ## Authors
 

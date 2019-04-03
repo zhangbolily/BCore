@@ -1,19 +1,18 @@
-# BThreadPack #
+# BCore #
 [![Build Status](https://travis-ci.com/zhangbolily/BCore.svg?branch=dev)](https://travis-ci.com/zhangbolily/BCore)
 [![Language](https://img.shields.io/badge/language-C%2B%2B11-orange.svg)](https://isocpp.org/)
-[![Platforms](https://img.shields.io/badge/platform-Linux%20%7C%20Windows-green.svg)](https://gitlab.com/zhangbolily/bthreadpack)
+[![Platforms](https://img.shields.io/badge/platform-Linux%20%7C%20Windows-green.svg)](https://gitlab.com/zhangbolily/BCore)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT/)
 [![codecov](https://codecov.io/gl/zhangbolily/BCore/branch/dev/graph/badge.svg)](https://codecov.io/gl/zhangbolily/BCore)
 
 [English](./README.md)
 
-BThreadPack 是一个高效、任务驱动的并发编程框架。
+Ball Chang 每个项目的核心部分。
 
 ## 主要特性
-- 轻松地定义和执行任务
-- 随时可以控制线程池的运转，例如创建和退出线程
-- 用于线程间通讯的消息队列机制
-- 每个任务都是线程安全的
+- 统一的基础数据类型定义。
+- 调试输出用的宏定义。
+- 返回值的枚举定义。
 
 ## 如何开始
 
@@ -21,7 +20,7 @@ BThreadPack 是一个高效、任务驱动的并发编程框架。
 
 ### 系统要求
 
-若你想在你的平台上使用 BThreadPack，必须满足以下条件。
+若你想在你的平台上使用 BCore，必须满足以下条件。
 ```
 C++ 标准: c++11
 构建工具: cmake make autoconf automake gcc
@@ -30,8 +29,8 @@ C++ 标准: c++11
 ### 安装
 
 ```
-$ git clone https://gitlab.com/zhangbolily/bthreadpack.git BThreadPack
-$ cd BThreadPack
+$ git clone https://gitlab.com/zhangbolily/BCore.git BCore
+$ cd BCore
 $ mkdir build
 $ cd build
 $ cmake .. 
@@ -43,20 +42,15 @@ $ make install
 
 [![Build](https://asciinema.org/a/4Sh30mIfX3uw6hboIJWFkXqbf.svg)](https://asciinema.org/a/4Sh30mIfX3uw6hboIJWFkXqbf)
 
-## 运行示例程序
-
-##### Examples
-
-此文件夹下包含了一些用于帮助你理解如何使用本工具包的示例项目。
-
-阅读 [./examples/README.md](./examples/README.md) 获取更多信息。
+## 测试
+默认情况下，测试程序会在构建完成后自动运行。
 
 ## 版本信息
 
-获取可用版本，请参阅 [tags on this repository](https://gitlab.com/zhangbolily/bthreadpack/tags)。
+获取可用版本，请参阅 [tags on this repository](https://gitlab.com/zhangbolily/BCore/tags)。
 
 ## 路线图
-在下个版本进行性能提升。
+下个版本提供一个更棒的调试输出宏定义。
 
 ## 作者
 
