@@ -6,7 +6,7 @@ The format is based on
 and this project adheres to
  [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [0.1.2-beta]
 ### Added
 [@BallChang]
 
@@ -22,7 +22,7 @@ and this project adheres to
 [@Ball Chang]
 
 [Unreleased]: https://gitlab.com/zhangbolily/BCore/tree/dev
-[0.1.1-alpha]:
+[0.1.2-beta]:
  https://gitlab.com/zhangbolily/BCore/tree/v0.1.2-beta
 
 [@Ball Chang]: https://gitlab.com/zhangbolily
