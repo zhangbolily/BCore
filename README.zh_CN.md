@@ -40,7 +40,7 @@ $ make install
 
 ##### 项目构建演示视频 (点击观看)
 
-[![Build](https://asciinema.org/a/4Sh30mIfX3uw6hboIJWFkXqbf.svg)](https://asciinema.org/a/4Sh30mIfX3uw6hboIJWFkXqbf)
+[![Build](https://asciinema.org/a/SkSkMIkjhO6R8axBUzQJidPyg.svg)](https://asciinema.org/a/SkSkMIkjhO6R8axBUzQJidPyg)
 
 ## 测试
 默认情况下，测试程序会在构建完成后自动运行。

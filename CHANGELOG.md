@@ -16,12 +16,13 @@ and this project adheres to
 
 ### Changed
 [@Ball Chang]
+- A new demonstration build terminal video.
 
 ### Removed
 [@Ball Chang]
 
 [Unreleased]: https://gitlab.com/zhangbolily/BCore/tree/dev
 [0.1.1-alpha]:
- https://gitlab.com/zhangbolily/BCore/tree/v0.1.1-alpha
+ https://gitlab.com/zhangbolily/BCore/tree/v0.1.2-beta
 
 [@Ball Chang]: https://gitlab.com/zhangbolily

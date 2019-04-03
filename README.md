@@ -41,7 +41,7 @@ $ make install
 
 ##### Demonstration build video (click to veiw)
 
-[![Build](https://asciinema.org/a/4Sh30mIfX3uw6hboIJWFkXqbf.svg)](https://asciinema.org/a/4Sh30mIfX3uw6hboIJWFkXqbf)
+[![Build](https://asciinema.org/a/SkSkMIkjhO6R8axBUzQJidPyg.svg)](https://asciinema.org/a/SkSkMIkjhO6R8axBUzQJidPyg)
 
 ## Running the tests
 
