@@ -38,7 +38,7 @@ $ make
 $ make install
 ```
 
-##### Demonstration build video (click to veiw)
+##### 项目构建演示视频 (点击观看)
 
 [![Build](https://asciinema.org/a/4Sh30mIfX3uw6hboIJWFkXqbf.svg)](https://asciinema.org/a/4Sh30mIfX3uw6hboIJWFkXqbf)
 
