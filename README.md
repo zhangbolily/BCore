@@ -52,7 +52,9 @@ The tetes will be done automatically after building by default.
 For the versions available, see the [tags on this repository](https://gitlab.com/zhangbolily/BCore/tags).
 
 ## Roadmap
-A better debug macro in the next version.
+
+- A better debug macro in the next version.
+- Windows build support
 
 ## Authors
 
