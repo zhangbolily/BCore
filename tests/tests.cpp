@@ -29,9 +29,9 @@
 
 #include <iostream>
 
-#include "BCore/BCore.h"
-#include "BCore/BDebug.h"
-#include "BCore/BType.h"
+#include <BCore/BCore.h>
+#include <BCore/BDebug.h>
+#include <BCore/BType.h>
 
 int main(int argc, char** argv) {
     using namespace BCore;

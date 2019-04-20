@@ -62,17 +62,16 @@ if (CODE_COVERAGE AND CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
     else ()
         target_link_libraries(coverage_config INTERFACE --coverage)
     endif ()
-endif (CODE_COVERAGE)
+endif ()
 
-option (BUILD_TESTING "Build the testing tree." ON)
+option (BUILD_TESTING "Build the testing tree." OFF)
 # Only build tests if we are the top-level project
 # Allows this to be used by super projects with `add_subdirectory`
 if (BUILD_TESTING AND (PROJECT_SOURCE_DIR STREQUAL CMAKE_SOURCE_DIR))
     enable_testing()
+    # Build tests
+    add_subdirectory (tests)
 endif ()
-
-# Build tests
-add_subdirectory (tests)
 
 # Build deb package
 # Package file name prefix
@@ -81,8 +80,8 @@ set (CPACK_DEBIAN_PACKAGE_NAME ${PROJECT_NAME})
 set (CPACK_GENERATOR "DEB")
 set (CPACK_DEBIAN_PACKAGE_ARCHITECTURE "amd64")
 set (MAJOR_VERSION 0)
-set (MINOR_VERSION 1)
-set (PATCH_VERSION 2-beta)
+set (MINOR_VERSION 2)
+set (PATCH_VERSION 0)
 set (CPACK_PACKAGE_VERSION_MAJOR "${MAJOR_VERSION}")
 set (CPACK_PACKAGE_VERSION_MINOR "${MINOR_VERSION}")
 set (CPACK_PACKAGE_VERSION_PATCH "${PATCH_VERSION}")
@@ -98,5 +97,8 @@ install (
     "${PROJECT_SOURCE_DIR}/include/${PROJECT_NAME}/BCore.h"
     "${PROJECT_SOURCE_DIR}/include/${PROJECT_NAME}/BDebug.h"
     "${PROJECT_SOURCE_DIR}/include/${PROJECT_NAME}/BType.h"
+    "${PROJECT_SOURCE_DIR}/include/${PROJECT_NAME}/BCore"
+    "${PROJECT_SOURCE_DIR}/include/${PROJECT_NAME}/BDebug"
+    "${PROJECT_SOURCE_DIR}/include/${PROJECT_NAME}/BType"
     DESTINATION include/${PROJECT_NAME}
 )
